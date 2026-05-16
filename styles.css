@@ -202,4 +202,39 @@ gap: 20px;
     cursor: pointer;
     
 }
+.image {
+    width: 100%;
+}
 
+footer 
+{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-links {
+        
+        gap: 15px;
+    }
+    .hero img { height: 70vh}
+    .hero-text h1 {
+        font-size: 28px;
+        text-align: center;
+
+    }
+    @media (max-width: 600px) {
+    .project-grid,
+    .teams-grid {
+        grid-template-columns: 1fr;
+
+        }
+
+        
+        }
+    }
